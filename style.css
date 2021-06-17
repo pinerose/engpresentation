@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body{
+    background: aliceblue;
+}
+
+#wrap{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 45rem;
+    margin: 5rem 0rem 0rem 0rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.titlegroup{
+    padding: 2rem 0rem 2.5rem 0rem;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    color: color;
+    width: 100%;
+    height: 12.5%;
+    border-bottom: 1px solid black;
+}
+
+h1{
+    font-size: 3.5rem;
+    padding: 0% 20% 0% 20%;
+}
+
+h2{
+    font-size: 2rem;
+    padding: 0% 20% 0% 20%;
+}
+a{
+    color: black;
+}
+section{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.75rem;
+    text-align: center;
+    line-height: 1.8;
+}
+
+section:not(.firstdesc, .thanks){
+    display: none;
+}
+
+.nohands {
+    cursor: default;
+}
+
+.thanks {
+    font-size: 3rem;
+}
+/* index.html 내비게이터 */
+.mainnav{
+    height: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    padding-bottom: 7.5%;
+}
+
+.mainnav li{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+li a{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: black;
+}
+
+a h3 {
+    font-size: 2rem;
+    padding: 0% 5% 0% 5%;
+}
+
+a span{
+    font-size: 1.5rem;
+    padding: 0% 0% 0% 0%;
+}
+
+/* 다른 html 파일 내비게이터 */
+.subnav{
+    display: flex;
+    flex-flow: row wrap;
+    width: 20%;
+    padding: 0% 0% 1% 0%;
+    margin: 5% 40% 0% 40%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.subnav li , .subnav li a{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    width: 10%;
+    height: 50%;
+    font-size: 1.5rem;
+}
+
+.subnav li a{
+    padding-left: 1rem;
+}
