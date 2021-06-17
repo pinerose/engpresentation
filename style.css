@@ -45,7 +45,7 @@ section{
     line-height: 1.8;
 }
 
-section:not(.firstdesc, .thanks){
+.seconddesc{
     display: none;
 }
 
