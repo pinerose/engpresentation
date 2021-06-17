@@ -110,3 +110,7 @@ a span{
 .subnav li a{
     padding-left: 1rem;
 }
+
+nav:hover {
+    visibility: visible;
+}
