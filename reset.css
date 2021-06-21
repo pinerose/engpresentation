@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Noto Sans KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto Serif&display=swap');
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
 p, blockquote, pre, abbr, address, cite, code, del, dfn, em, 
@@ -18,13 +19,13 @@ menu, nav, section, summary, time, mark, audio, video{
 }
 
 body{
-    font-family: "Sitka Text", "Noto Sans KR", Sans-serif;
+    font-family: "Noto Serif", serif, "Noto Sans KR", Sans-serif, Arial;
     background:#EDEDED;
     line-height:1;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Sitka Heading", "Noto Sans KR", Sans-serif;
+    font-family: "Noto Serif", serif, "Noto Sans KR", Sans-serif;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
